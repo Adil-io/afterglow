@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090a0c" />
+    <meta name="description" content="Discover movies and series, then find a licensed way to watch." />
+    <title>Afterglow — Find your next story</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (location.protocol === 'file:') {
+        document.getElementById('root').innerHTML = '<main style="min-height:100vh;display:grid;place-content:center;padding:32px;background:#090a0c;color:#f2eee7;font:14px Arial,sans-serif"><section style="max-width:560px;padding:30px;border:1px solid #383838;border-radius:8px;background:#111316"><p style="color:#ff7547;letter-spacing:2px;font-size:11px">AFTERGLOW LOCAL SETUP</p><h1 style="font-size:30px">Start the local app server</h1><p style="color:#b5b3ac;line-height:1.7">This app needs its local API server and cannot run by opening index.html directly.</p><p style="color:#b5b3ac;line-height:1.7">In the project folder, run <code style="color:#c7ef7c">npm run dev</code>, then open the Vite URL printed in the terminal.</p></section></main>';
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

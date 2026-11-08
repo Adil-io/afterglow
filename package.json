@@ -1,0 +1,31 @@
+{
+  "name": "afterglow",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./node_modules/concurrently/dist/bin/concurrently.js -k \"node ./node_modules/tsx/dist/cli.mjs watch server/index.ts\" \"node ./node_modules/vite/bin/vite.js\"",
+    "dev:api": "node ./node_modules/tsx/dist/cli.mjs watch server/index.ts",
+    "dev:web": "node ./node_modules/vite/bin/vite.js",
+    "build": "node ./node_modules/typescript/bin/tsc --noEmit -p tsconfig.app.json && node ./node_modules/typescript/bin/tsc --noEmit -p tsconfig.node.json && node ./node_modules/vite/bin/vite.js build",
+    "start": "node ./node_modules/tsx/dist/cli.mjs server/index.ts",
+    "preview": "node ./node_modules/vite/bin/vite.js preview"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.19.3",
+    "typescript": "~5.7.3",
+    "vite": "^6.1.0"
+  }
+}

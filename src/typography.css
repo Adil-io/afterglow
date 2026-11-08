@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root{--sans:'Manrope',Arial,sans-serif;--serif:'DM Serif Display',Georgia,serif;--muted:#b0afa9}
+body{font-family:var(--sans);font-size:16px;line-height:1.58;letter-spacing:.005em}
+body{color:#f4f1eb}
+button,input,select{font-family:var(--sans)}
+.brand{font-size:21px;letter-spacing:-.7px}
+.nav-link{font-size:14px}
+.search input{font-size:14px}
+.search kbd{font-size:11px}
+.hero-copy>p{font-size:16px;line-height:1.75}
+.eyebrow,.section-kicker{font-size:11px;letter-spacing:1.3px}
+.hero-note{font-size:10px;letter-spacing:.75px}
+.hero-side-note,.hero-bottom{font-size:10px;letter-spacing:.9px}
+.button{font-size:13px}
+.quick-stats b{font-size:13px}
+.quick-stats small{font-size:12px}
+.stat-about,.text-link{font-size:12px}
+.section-heading h2,.about-heading h2{font-size:38px;line-height:1.18;letter-spacing:-.4px}
+.section-kicker{font-weight:600}
+.eyebrow,.hero-note,.hero-side-note,.hero-bottom,.section-kicker{color:#aaa8a1}
+.section-kicker{color:#b2a99e}
+.quick-stats small,.stat-about,.text-link,.movie-sub,.status-line,.about-copy,footer{color:#b1afa8}
+.filter-chip{color:#c1beb6}
+.placeholder-ids,.provider-footnote,.justwatch-notice{color:#a09e98}
+.filter-chip{font-size:12px;padding:10px 13px}
+.status-line{font-size:13px;line-height:1.5}
+.movie-title{font-size:14px;line-height:1.35;font-weight:700;letter-spacing:0}
+.movie-sub{font-size:11px;line-height:1.4}
+.movie-sub span:last-child{font-size:10px}
+.card-rating{font-size:11px}
+.quote-band p{font-size:32px;line-height:1.35}
+.quote-band>span{font-size:10px}
+.about-copy{font-size:14px;line-height:1.8}
+.about-copy a{font-size:12px}
+footer{font-size:10px}
+.region-picker{font-size:10px}
+.region-picker select{font-size:12px}
+.error-banner{font-size:13px;line-height:1.65}
+.error-banner code{font-size:12px}
+.load-more{font-size:13px}
+.details-content h2{font-size:42px;line-height:1.12}
+.details-overview{font-size:15px;line-height:1.8}
+.details-facts{font-size:12px}
+.genre-list span{font-size:11px;padding:6px 10px}
+.provider-heading h3{font-size:23px}
+.provider{font-size:12px}
+.provider-footnote,.justwatch-notice{font-size:11px;line-height:1.65}
+.no-providers,.provider-loading{font-size:13px;line-height:1.6}
+.trailer-picker-trigger{padding:9px 11px}
+.picker-overline{font-size:8px;letter-spacing:1.1px}
+.picker-current{font-size:12px}
+.trailer-picker-option{padding:10px 9px}
+.tmdb-choice-caption{font-size:9px}
+.tmdb-choice-trigger{font-size:13px}
+.tmdb-choice-copy b{font-size:12px}
+.tmdb-choice-copy small{font-size:11px}
+.option-label{font-size:12px}
+.option-label small{font-size:9px}
+.trailer-error button{font-size:11px}
+.video-launch{font-family:var(--sans)}
+.launch-copy small,.launch-id{font-size:9px}
+.launch-copy em{font-size:12px}
+.playback-head h2{font-size:26px}
+.playback-head span{font-size:9px}
+.playback-head small{font-size:9px}
+.playback-placeholder>p{font-size:13px;line-height:1.75}
+.placeholder-ids{font-size:9px}
+.empty-state p{font-size:14px;line-height:1.65}
+
+@media(max-width:700px){
+  body{font-size:15px}
+  .hero-copy>p{font-size:15px;max-width:335px}
+  .eyebrow,.section-kicker{font-size:10px}
+  .hero-note{font-size:9px}
+  .quick-stats b{font-size:12px}
+  .quick-stats small{font-size:11px}
+  .section-heading h2,.about-heading h2{font-size:31px}
+  .movie-title{font-size:14px}
+  .movie-sub{font-size:11px}
+  .quote-band p{font-size:27px}
+  .about-copy{font-size:14px}
+  .details-content h2{font-size:32px}
+  .details-overview{font-size:14px}
+  .provider-heading h3{font-size:21px}
+  .tmdb-choice{width:min(160px,43vw)}
+  .playback-head h2{font-size:21px}
+}
